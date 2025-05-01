@@ -3,10 +3,16 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar">
-    
+    <div className="navbar">
+    <nav>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/directors">Directors</NavLink>
+      <NavLink to="/actors">Actors</NavLink>
     </nav>
-    );
-};
+  </div>
+    
+  );  
+}
+
 
 export default NavBar;
